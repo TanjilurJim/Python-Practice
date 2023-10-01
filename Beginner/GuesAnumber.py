@@ -2,7 +2,7 @@ import random
 
 n = random.randint(1,10)
 
-guess = 0
+guess = 0 
 
 while guess != n :
 
