@@ -15,3 +15,4 @@ n = [1782139]
 
 if 4 not in n:
     print("nai toh")
+
