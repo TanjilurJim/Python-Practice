@@ -5,9 +5,9 @@ if pass1 == pass2:
     print("Confirmed")
 else:
     if pass1.casefold() == pass2.casefold():
-        print("please check for cases and try again")
+        print("Please check for cases and try again")
     else:
-        print("not matching try again")
+        print("Not matching try again")
 
 
 
