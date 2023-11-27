@@ -1,0 +1,3 @@
+nameList = ["jack","wayne","lil"]
+
+
