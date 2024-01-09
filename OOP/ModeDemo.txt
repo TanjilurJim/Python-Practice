@@ -1,0 +1,7 @@
+Hello
+how are you ?
+I am learning python
+it is very easy
+I am learning python
+it is very easy
+GoodBye
