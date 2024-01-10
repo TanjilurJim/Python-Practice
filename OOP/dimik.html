@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" href="https://dimikoj.com/img/icons/favicon.png">
+<link rel="icon" type="image/png" href="https://dimikoj.com/img/icons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://dimikoj.com/img/icons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://dimikoj.com/img/icons/favicon.png" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>    দ্বিমিক অনলাইন জাজ
+ | Dimik OJ</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport" />
+<meta name="description" content="দ্বিমিক অনলাইন জাজ। বাংলা ভাষায় প্রোগ্রামিং সমস্যা সমাধান করুন দ্বিমিক অনলাইন জাজে।">
+<meta name="keyword" content="Dimik, dimik online judge, dimikoj, programming problem, problem solving, programming contest, দ্বিমিক, দ্বিমিক অনলাইন জাজ, দ্বিমিক ওজে, প্রোগ্রামিং সমস্যা, প্রবলেম সলভিং, প্রোগ্রামিং কনটেস্ট, অনলাইন জাজ, প্রোগ্রামিং">
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://dimikoj.com" />
+<meta property="og:title" content="    দ্বিমিক অনলাইন জাজ
+ | Dimik OJ" />
+<meta property="og:site_name" content="দ্বিমিক অনলাইন জাজ" />
+<meta property="og:description" content="দ্বিমিক অনলাইন জাজ। বাংলা ভাষায় প্রোগ্রামিং সমস্যা সমাধান করুন দ্বিমিক অনলাইন জাজে।" />
+<meta property="og:image" content="https://dimikoj.com/img/dimik-oj.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@DimikComputing">
+<meta name="twitter:url" content="https://dimikoj.com" />
+<meta name="twitter:creator" content="@DimikComputing">
+<meta name="twitter:title" content="    দ্বিমিক অনলাইন জাজ
+ | Dimik OJ">
+<meta name="twitter:description" content="দ্বিমিক অনলাইন জাজ। বাংলা ভাষায় প্রোগ্রামিং সমস্যা সমাধান করুন দ্বিমিক অনলাইন জাজে।">
+<meta name="twitter:image" content="https://dimikoj.com/img/dimik-oj.png">
+
+<link rel="canonical" href="https://dimikoj.com">
+
+<link rel="shortcut icon" href="https://dimikoj.com/img/icons/favicon.ico">
+<link type="text/plain" rel="author" href="https://dimikoj.com/humans.txt" />
+
+<meta name="csrf-token" content="19ni1wcnRLphQPTYVhS2YlvIylT9iNSAnEjmmTio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/gh/maateen/bangla-web-fonts/content/solaiman-lipi/font.css" rel="stylesheet" />
+<link href="https://dimikoj.com/vendor/iziToast/css/iziToast.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/theme.css?id=babf50be750430ed657e514b7adf195e">
+<script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49393158-2');
+    </script>
+</head>
+<body>
+<div class="page">
+<div class="flex-fill">
+
+<div class="header py-4">
+<div class="container">
+<div class="d-flex align-items-center">
+<a class="header-brand" href="/">
+<img src="https://dimikoj.com/img/dimik-logo-green.svg" class="header-brand-img" alt="Dimik OJ">
+</a>
+<div class="d-flex order-lg-2 ml-auto">
+<div class="nav-item d-none d-md-flex">
+<a href="https://dimikoj.com/login" class="btn btn-sm btn-outline-primary"><i class="fas fa-sign-in-alt"></i>&nbsp;লগইন</a>
+</div>
+<div class="nav-item d-none d-md-flex">
+<a href="https://dimikoj.com/register" class="btn btn-sm btn-outline-primary"><i class="fas fa-user-friends"></i>&nbsp;নিবন্ধন</a>
+</div>
+</div>
+<a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-bs-toggle="collapse" data-bs-target="#headerMenuCollapse">
+<span class="header-toggler-icon"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-3 ml-auto">
+<form class="input-icon my-3 my-lg-0" action="https://dimikoj.com/search" method="get">
+<input type="search" name="query" class="form-control header-search" placeholder="প্রবলেম খুঁজুন&hellip;" tabindex="1">
+<div class="input-icon-addon">
+<i class="fas fa-search"></i>
+</div>
+</form>
+</div>
+<div class="col-lg order-lg-first">
+<ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+<li class="nav-item">
+<a href="https://dimikoj.com/problems" class="nav-link "><i class="fas fa-file-code fa-fw"></i>&nbsp;প্রোগ্রামিং সমস্যা</a>
+</li>
+<li class="nav-item">
+<a href="https://dimikoj.com/submissions" class="nav-link "><i class="fas fa-code fa-fw"></i>&nbsp;সাবমিশন</a>
+</li>
+<li class="nav-item">
+<a href="https://dimikoj.com/posts" class="nav-link "><i class="fas fa-align-center fa-fw"></i> পোস্ট</a>
+</li>
+<li class="nav-item">
+<a href="https://dimikoj.com/faq" class="nav-link "><i class="fas fa-life-ring fa-fw"></i> সাহায্য</a>
+</li>
+<li class="nav-item">
+<a href="https://dimikoj.com/login" class="nav-link"><i class="fas fa-sign-in-alt"></i>&nbsp;লগইন</a>
+</li>
+<li class="nav-item">
+<a href="https://dimikoj.com/register" class="nav-link"><i class="fas fa-user-friends"></i>&nbsp;নিবন্ধন</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="my-3 my-md-5">
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-9">
+<div class="row">
+<div class="col-12">
+<div class="card p-4">
+<h2 class="display-4 pb-0 mb-0">দ্বিমিক অনলাইন জাজে স্বাগতম!</h2>
+<hr>
+<p class="mb-3">এখান থেকেই শুরু হোক প্রোগ্রামিং সমস্যা সমাধান। শুভকামনা!</p>
+</div>
+<div class="card p-4">
+<div class="card-status bg-teal-dark"></div>
+<p class="fs-1 mb-0">অনাকাঙ্ক্ষিত কারণে দ্বিমিক অনলাইন জাজে কোনো সমস্যা দেখা দিলে <a href="https://lightoj.com/problems/category/dimik" target="_blank">লাইটওজে</a>-তে সমস্যাগুলো সমাধান করা যাবে।</p>
+</div>
+
+<div class="card mb-5">
+<h2 class="card-header"><i class="fas fa-file-code"></i>&nbsp; প্রোগ্রামিং সমস্যা</h2>
+<div class="table-responsive">
+<table class="table table-hover mb-0">
+<thead class="bg-dark text-white">
+<tr>
+<th>আইডি</th>
+<th>টাইটেল</th>
+<th>সাবমিশন</th>
+<th>অ্যাকসেপটেড</th>
+<th>প্রবলেম সেটার</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>৫২</td>
+<td><a class="card-link" href="https://dimikoj.com/problems/52/khoj-the-search-2">খোঁজ – দ্য সার্চ ২</a>
+</td>
+<td>৯১</td>
+<td>৬৬</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/1?dimik">
+Dimik Computing
+</a>
+</td>
+</tr>
+<tr>
+<td>৫১</td>
+<td><a class="card-link" href="https://dimikoj.com/problems/51/khoj-the-search-1">খোঁজ – দ্য সার্চ ১</a>
+</td>
+<td>৯৮</td>
+<td>৬৮</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/1?dimik">
+Dimik Computing
+</a>
+</td>
+</tr>
+<tr>
+<td>৫০</td>
+<td><a class="card-link" href="https://dimikoj.com/problems/50/left-right">লেফট-রাইট</a>
+</td>
+<td>৮৪</td>
+<td>৭২</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/1?dimik">
+Dimik Computing
+</a>
+</td>
+</tr>
+<tr>
+<td>৪৯</td>
+<td><a class="card-link" href="https://dimikoj.com/problems/49/is-prime">মৌলিক কি না</a>
+</td>
+<td>২৪১</td>
+<td>৬০</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/1?dimik">
+Dimik Computing
+</a>
+</td>
+</tr>
+<tr>
+<td>৪৮</td>
+<td><a class="card-link" href="https://dimikoj.com/problems/48/missing-number">নিখোঁজ সংখ্যা</a>
+</td>
+<td>১৬০</td>
+<td>৭১</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/1?dimik">
+Dimik Computing
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="card-footer">
+<a class="btn btn-lg btn-primary" href="https://dimikoj.com/problems"><i class="fas fa-file-code"></i>&nbsp;সব প্রোগ্রামিং সমস্যা</a>
+</div>
+</div>
+
+
+<div class="card mb-5">
+<h2 class="card-header"><i class="fas fa-code"></i>&nbsp; সাবমিশন</h2>
+<div class="table-responsive">
+<table class="table table-hover mb-0">
+<thead>
+<tr class="bg-dark text-white">
+<th>আইডি</th>
+<th>প্রবলেম</th>
+<th>রেজাল্ট</th>
+<th>ল্যাংগুয়েজ</th>
+<th>রানটাইম</th>
+<th>সাবমিশন করেছেন</th>
+</tr>
+</thead>
+<tbody>
+<tr class="table-succes">
+<td>
+<a href="https://dimikoj.com/submissions/25693">
+<strong>২৫৬৯৩</strong>
+</a>
+</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/problems/14/character-frequency">
+অক্ষরের ঘনঘটা
+</a>
+</td>
+<td><span class="btn btn-sm btn-success" data-toggle="tooltip" title="Accepted" data-original-title="Accepted">AC</span></td>
+<td>Python 3.10</td>
+<td>০.০৬৯৮ সে.</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/w0q6?zahid147">Zahidul Kabir</a>
+</td>
+</tr>
+<tr class="table-default">
+<td>
+<a href="https://dimikoj.com/submissions/25692">
+<strong>২৫৬৯২</strong>
+</a>
+</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/problems/12/factorial-100">
+ফ্যাক্টরিয়াল ১০০
+</a>
+</td>
+<td><span class="btn btn-sm btn-info" data-toggle="tooltip" title="In Judge Queue" data-original-title="In Judge Queue">IJQ</span></td>
+<td>Python 3.10</td>
+<td>N/A</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/w0q6?zahid147">Zahidul Kabir</a>
+</td>
+</tr>
+<tr class="table-default">
+<td>
+<a href="https://dimikoj.com/submissions/25691">
+<strong>২৫৬৯১</strong>
+</a>
+</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/problems/11/factorial">
+গৌণিক বা ফ্যাক্টরিয়াল
+</a>
+</td>
+<td><span class="btn btn-sm btn-info" data-toggle="tooltip" title="In Judge Queue" data-original-title="In Judge Queue">IJQ</span></td>
+<td>Python 3.10</td>
+<td>N/A</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/w0q6?zahid147">Zahidul Kabir</a>
+</td>
+</tr>
+<tr class="table-default">
+<td>
+<a href="https://dimikoj.com/submissions/25690">
+<strong>২৫৬৯০</strong>
+</a>
+</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/problems/10/run-rate-1">
+রান রেট ১
+</a>
+</td>
+<td><span class="btn btn-sm btn-info" data-toggle="tooltip" title="In Judge Queue" data-original-title="In Judge Queue">IJQ</span></td>
+<td>Python 3.10</td>
+<td>N/A</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/w0q6?zahid147">Zahidul Kabir</a>
+</td>
+</tr>
+<tr class="table-default">
+<td>
+<a href="https://dimikoj.com/submissions/25689">
+<strong>২৫৬৮৯</strong>
+</a>
+</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/problems/9/square-number">
+পূর্ণবর্গ সংখ্যা
+</a>
+</td>
+<td><span class="btn btn-sm btn-info" data-toggle="tooltip" title="In Judge Queue" data-original-title="In Judge Queue">IJQ</span></td>
+<td>Python 3.10</td>
+<td>N/A</td>
+<td>
+<a class="card-link" href="https://dimikoj.com/profile/w0q6?zahid147">Zahidul Kabir</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="card-footer">
+<a class="btn btn-lg btn-primary" href="https://dimikoj.com/submissions"><i class="fas fa-code"></i>&nbsp;সব সাবমিশন</a>
+</div>
+</div>
+
+
+<div class="card mb-3">
+<h2 class="card-header"><i class="fas fa-user-friends"></i>&nbsp;<i class="fas fa-chart-line"></i>&nbsp; টপ
+ইউজার</h2>
+<div class="table-responsive">
+<table class="table table-hover mb-0">
+<thead class="bg-dark text-white">
+<tr>
+<th>আইডি</th>
+<th>নাম</th>
+<th>মোট সাবমিশন</th>
+<th>সঠিক সাবমিশন</th>
+<th>মোট চেষ্টা</th>
+<th>মোট সমাধান</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>১৫৫৩</td>
+<td>
+<strong>
+<a class="card-link" href="https://dimikoj.com/profile/0gm8?Hacker%203.0">Hacker 3.0</a>
+</strong>
+</td>
+<td>৫২</td>
+<td>৫২</td>
+<td>৫২</td>
+<td>৫২</td>
+</tr>
+<tr>
+<td>১৫৫৭</td>
+<td>
+<strong>
+<a class="card-link" href="https://dimikoj.com/profile/6j9w?Md.%20An%20Nahian%20Prince">Md. An Nahian Prince</a>
+</strong>
+</td>
+<td>৫৩</td>
+<td>৫৩</td>
+<td>৫২</td>
+<td>৫২</td>
+</tr>
+<tr>
+<td>১২৩৩</td>
+<td>
+<strong>
+<a class="card-link" href="https://dimikoj.com/profile/6jq3?Fahim%20Ahmed">Fahim Ahmed</a>
+</strong>
+</td>
+<td>১৪৭</td>
+<td>৬৫</td>
+<td>৫২</td>
+<td>৫২</td>
+</tr>
+<tr>
+<td>১৯৯৪</td>
+<td>
+<strong>
+<a class="card-link" href="https://dimikoj.com/profile/8ym9?%F0%9D%91%BB%F0%9D%92%82%F0%9D%92%8F%F0%9D%92%97%F0%9D%92%8A%F0%9D%92%93%20%F0%9D%91%BA%F0%9D%92%90%F0%9D%92%93%F0%9D%92%87%F0%9D%92%90%F0%9D%92%93%F0%9D%92%82%F0%9D%92%9B">𝑻𝒂𝒏𝒗𝒊𝒓 𝑺𝒐𝒓𝒇𝒐𝒓𝒂𝒛</a>
+</strong>
+</td>
+<td>১৩১</td>
+<td>৬৪</td>
+<td>৫২</td>
+<td>৫২</td>
+</tr>
+<tr>
+<td>১২৩৫</td>
+<td>
+<strong>
+<a class="card-link" href="https://dimikoj.com/profile/em9p?Alim%20Uddin">Alim Uddin</a>
+</strong>
+</td>
+<td>৯৪</td>
+<td>৫৯</td>
+<td>৫২</td>
+<td>৫২</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="card-footer">
+<a class="btn btn-lg btn-primary" href="https://dimikoj.com/users/ranklist"><i class="fas fa-user-friends"></i>&nbsp;<i class="fas fa-chart-line"></i> পূর্ণ র‍্যাংকলিস্ট</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-3">
+<div id="arrilot-widget-container-1" style="display:inline" class="arrilot-widget-container">Loading Stats...<script type="text/javascript">setTimeout(function() {var xhr = new XMLHttpRequest();xhr.open("GET", "/arrilot/load-widget?id=1&name=SiteStats&params=eyJpdiI6InYyL2lPK0h3dWtjUzRBbXdHU1hNWVE9PSIsInZhbHVlIjoieVFES1ZnV3UwbTE0b3NmSnIyK0Q3Zz09IiwibWFjIjoiYjUwOTAzYmM1YmRmNDk3MmRkNDIwYjFhOTZkMDY1NDczMmVhNTcxMTkyNjZkZWRhZDRmOWFhYmM0NzRhMTUwNCIsInRhZyI6IiJ9", true);xhr.onreadystatechange = function() {if(xhr.readyState == 4 && xhr.status == 200) {var container = document.getElementById("arrilot-widget-container-1");container.innerHTML = xhr.responseText;var scripts = container.getElementsByTagName("script");for(var i=0; i < scripts.length; i++) {if (window.execScript) {window.execScript(scripts[i].text);} else {window["eval"].call(window, scripts[i].text);}}}};xhr.send();}, 0);</script></div> <div id="arrilot-widget-container-2" style="display:inline" class="arrilot-widget-container"><script type="text/javascript">setTimeout(function() {var xhr = new XMLHttpRequest();xhr.open("GET", "/arrilot/load-widget?id=2&name=BookAds&params=eyJpdiI6IkRJYmJXclhBV1h5YTVXZEk1aGJqVEE9PSIsInZhbHVlIjoiVllGUTBRbDJnYURIb1Z6RmxrL05NZz09IiwibWFjIjoiZTE1YmM5ZWY4ZmFiNGI1ZjkwNjM5NmZkZDBlOTY2ZWZjNmFiYTc3OGMwMDU4ZTM5OGZhMWM5NjVhODI5ZDBkMiIsInRhZyI6IiJ9", true);xhr.onreadystatechange = function() {if(xhr.readyState == 4 && xhr.status == 200) {var container = document.getElementById("arrilot-widget-container-2");container.innerHTML = xhr.responseText;var scripts = container.getElementsByTagName("script");for(var i=0; i < scripts.length; i++) {if (window.execScript) {window.execScript(scripts[i].text);} else {window["eval"].call(window, scripts[i].text);}}}};xhr.send();}, 0);</script></div> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
+<div class="row">
+<div class="col-9 col-md-6">
+<ul class="list-unstyled mb-0">
+<li><a href="https://dimikcomputing.com" target="_blank">দ্বিমিক কম্পিউটিং</a></li>
+<li><a href="http://dimik.pub/" target="_blank">দ্বিমিক প্রকাশনী</a></li>
+</ul>
+</div>
+<div class="col-9 col-md-6">
+<ul class="list-unstyled mb-0">
+<li><a href="https://www.facebook.com/groups/programming.school/" target="_blank">প্রোগ্রামিং
+স্কুল</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-4 mt-4 mt-lg-0">
+<a href="https://dimikcomputing.com" target="_blank">দ্বিমিক কম্পিউটিং</a> একটি ইন্টারনেটভিত্তিক শিক্ষা
+প্রতিষ্ঠান যার মূল লক্ষ্য হচ্ছে বাংলা ভাষায় তথ্যপ্রযুক্তির জ্ঞান ছড়িয়ে দেওয়া।
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="row align-items-center justify-content-center flex-row-reverse">
+<div class="col-auto ml-lg-auto">
+<div class="row align-items-center">
+<div class="col-auto">
+<ul class="list-inline list-inline-dots mb-0">
+<li class="list-inline-item"><a href="https://dimikcomputing.com/about" target="_blank">আমাদের
+সম্পর্কে</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+দ্বিমিক অনলাইন জাজ &copy; সর্বস্বত্ব সংরক্ষিত — <a href="https://dimikcomputing.com" target="_blank"> দ্বিমিক
+কম্পিউটিং</a>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+
+<script src="/js/theme.js?id=e524f9e142136580f5d2d6b5f591d94a"></script>
+<script src="https://dimikoj.com/vendor/iziToast/js/iziToast.min.js" type="text/javascript"></script>
+</html>
