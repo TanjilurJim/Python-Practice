@@ -31,9 +31,41 @@
 # print(n)
 
 # Default Arguments
-#default should be on the rhs
+#default arg should be on the rhs
 
-def add(a,b=0,c=0):
-    return a + b + c
+# def add(a,b=0,c=0):
+#     return a + b + c
+#
+# print(add(10,b=5)) #first positional arg then keyword arg
 
-print(add(10,b=5)) #first positional arg then keyword arg
+# Here we are not passing the list yet creating a list
+# def additem(item,L=[]):
+#
+#     L.append(item)
+#
+#
+#     return L
+#
+#
+# # l1 = []
+# n = int(input("please enter the amount"))
+# for i in range(n):
+#     x = int(input(f'Please enter{i}th integer'))
+#     (additem(x))
+#
+# print(additem(1))
+
+def additem(item=None, L=[]):
+    if item is not None:
+        L.append(item)
+    return L
+
+n = int(input("Please enter the amount: "))
+for i in range(n):
+    x = int(input(f'Please enter {i+1}th integer: '))
+    additem(x)
+
+# Call the function without adding a new item
+print(additem())
+
+
