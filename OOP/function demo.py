@@ -55,17 +55,38 @@
 #
 # print(additem(1))
 
-def additem(item=None, L=[]):
-    if item is not None:
-        L.append(item)
-    return L
+# def additem(item=None, L=[]):
+#     if item is not None:
+#         L.append(item)
+#     return L
+#
+# n = int(input("Please enter the amount: "))
+# for i in range(n):
+#     x = int(input(f'Please enter {i+1}th integer: '))
+#     additem(x)
+#
+# # Call the function without adding a new item
+# print(additem())
 
-n = int(input("Please enter the amount: "))
-for i in range(n):
-    x = int(input(f'Please enter {i+1}th integer: '))
-    additem(x)
 
-# Call the function without adding a new item
-print(additem())
+#  MIXED POSTIONAL OR KEYWORD ARGS
 
-
+# def add(a,b,c,d,e,f):
+#     return a+b+c+d+e+f
+#
+# r = add(f=9,a=1,b=3,c=8,d=1,e=3)
+# print(r)
+#
+# def add2(a,b,/,c,d,e,f):
+#     print(a,b,c,d,e,f)
+#     return a+b+c+d+e+f
+#
+# r = add2(2,5,f=9,c=8,d=1,e=3)
+# print(r)
+#
+# def add3(a,b,/,c,d,*,e,f):
+#     print(a,b,c,d,e,f)
+#     return a+b+c+d+e+f
+#
+# s = add3(2,5,2,d=1,f=9,e=8)
+# print(s)
