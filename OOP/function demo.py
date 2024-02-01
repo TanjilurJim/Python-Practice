@@ -118,3 +118,18 @@
 
 #Keyword Variable Length Arguments
 
+# def func2(**kwargs):
+#     for x in kwargs:
+#         print(x,kwargs[x])
+#
+# func2(name='bob', roll=10, addr = 'Dhaka')
+
+# Mixed arguements
+
+# def func3 (a,b, *args, **kwargs):
+#     print(a,b, args, kwargs)
+#
+# l1 = [12,312]
+# func3(10,25,l1,1.5 ,c = 5)
+
+
