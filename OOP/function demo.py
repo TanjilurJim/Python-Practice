@@ -90,3 +90,31 @@
 #
 # s = add3(2,5,2,d=1,f=9,e=8)
 # print(s)
+
+#Variable Lenght Arguments
+# def fun1(*args):
+#     print(args)
+#     print(type(args))
+#
+# l1 = [123,1]
+#
+# fun1(l1,120,123,'saf')
+
+#unpacking Arguments
+
+# def fun2(a,b,c):
+#     print(a,b,c)
+
+# l1 =[11,22,33]
+# fun2(l1[0],l1[1],l1[1])
+# but how can I pass the values of l1 distributed among a,b,c ?
+
+# def fun2(a,b,c):
+#      print(a,b,c)
+#
+# l1 = [11,22,33]
+#
+# fun2(*l1)
+
+#Keyword Variable Length Arguments
+
