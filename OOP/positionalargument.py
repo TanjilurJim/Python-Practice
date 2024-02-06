@@ -1,5 +1,5 @@
 def nameandprof(name, profession):
-    print(f"My name is {name} and I am a {profession}")
+    return f"My name is {name} and I am a {profession}\n"
 
 l = []
 
@@ -8,7 +8,7 @@ l.append(name)
 profession = input("What is your profession?: ")
 l.append(profession)
 
-nameandprof(*l)
+r =nameandprof(*l)
 
-with open("info.txt", 'w+') as f:
-    f.write(f"My name is {l[0]} and I am a {l[1]}")
+with open("info.txt", 'a+') as f:
+    f.write(r)
