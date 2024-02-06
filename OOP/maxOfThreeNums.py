@@ -1,5 +1,5 @@
 def max3(a,b,c):
-    max = 0
+
     if a > b:
         max = a
     else:
