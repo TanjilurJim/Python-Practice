@@ -25,7 +25,7 @@ def counts(l):
             result.append((i,cnt))
     return result
 
-
+ 
 L = []
 input1 = int(input("Please enter how many elements you want in a list?:"))
 

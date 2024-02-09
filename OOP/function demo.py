@@ -133,3 +133,11 @@
 # func3(10,25,l1,1.5 ,c = 5)
 
 
+def display():
+    print("hello")
+
+def fun(d):
+    d()
+
+
+fun(display)
