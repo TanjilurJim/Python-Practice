@@ -19,10 +19,14 @@ def stage(age):
 
 
 
-stage(12)
-stage(100)
-stage(0)
-stage(-8)
+try:
+    age = int(input("Enter your age: "))
+    stage(age)
+except ValueError as e:
+    print(f"Error: {e}")
+
+
+
 
 
 
