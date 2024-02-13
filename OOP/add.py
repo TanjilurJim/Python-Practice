@@ -5,7 +5,7 @@ print(type(sys.argv))
 
 arguments = sys.argv
 
-a = arguments[1]
-b = arguments[2]
+# Convert arguments to integers before adding
+a = int(arguments[1])
+b = int(arguments[2])
 print(a+b)
-
