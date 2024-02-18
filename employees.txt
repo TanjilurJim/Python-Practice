@@ -1,0 +1,14 @@
+Name: john
+id: e101
+Designation: Manager
+Salary: 18000
+
+total employees: 2
+
+Name: jim
+id: e102
+Designation: WebDev
+Salary: 50000
+
+total employees: 2
+
