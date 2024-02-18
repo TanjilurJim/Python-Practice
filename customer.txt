@@ -1,2 +1,9 @@
+Name: Jim2
+Phone: 01521584092
+Customer no: 2 
 Name: Jim
 Phone: 01791557014
+Customer no: 1 
+Name: Jim2
+Phone: 01521584092
+Customer no: 2 
