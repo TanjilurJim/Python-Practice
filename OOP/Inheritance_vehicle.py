@@ -30,6 +30,9 @@ class Car(Vehicle):
         """Method for changing gear """
         print(self.name, "is changin gear to", gear_name)
 
+    def turn(self, direction):
+        print(self.name,"is turning", direction)
+
 if __name__ == "__main__":
     v1 = Vehicle('Fusion 110 Ex', 'walton','black')
     v2 = Vehicle('Softail Delux','Harley-Davidson','Blue')
