@@ -22,6 +22,6 @@ def factorial(n):
 
 try:
     n = int(input("please enter a non-negative integer for factoral calculation: "))
-    print(factorial(n))
+    print("Result: ",factorial(n))
 except ValueError:
     print("That's not a vlid integer. Please enter a valid non-negative integer: ")
