@@ -1,19 +1,23 @@
-def insertion_sort(L):
-    n=len(L)
-
-    for i in range(1,n):
-        key = L[i]
-        j = i-1
-
-        while j>=0 and key < L[i]:
-            L[j+1] = L[j]
-            j-=1
-            L[j+1] = key
+# Insertion sort in Python
 
 
+def insertionSort(array):
+    for step in range(1, len(array)):
+        key = array[step]
+        j = step - 1
 
-if __name__ =="__main__":
-    L=[6,1,4,9,2]
-    print("before sort:", L)
-    insertion_sort(L)
-    print("After sort:", L)
+        # Compare key with each element on the left of it until an element smaller than it is found
+        # For descending order, change key<array[j] to key>array[j].        
+        while j >= 0 and key < array[j]:
+            array[j + 1] = array[j]
+            j = j - 1
+
+        # Place key at after the element just smaller than it.
+        array[j + 1] = key
+
+
+data = [9, 5, 1, 4, 3]
+print('before insertion sort:',data)
+
+insertionSort(data)
+print('after sorting',data)
